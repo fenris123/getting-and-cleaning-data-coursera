@@ -18,4 +18,7 @@ No aditional libraries required.
 
 We recomended to open all the .txt files with notepad++
 
+To see the CODE BOOK, you must click on "View raw". It's a word file.
+
+
 Important note:  if you are using another  OS, it’s possible that you need to change the path format in the scripts  in order to work.

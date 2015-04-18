@@ -12,7 +12,7 @@ This script does the following:
 
 The data that we had use as a base can be downloaded from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-to work properly, the data must be extracted don your working directory. In simpler words, contain the “UCI HAR Dataset” directory and all it’s content must be on your working directory.
+to work properly, the data must be extracted don your working directory. In simpler words,  the “UCI HAR Dataset” directory and all it’s content must be on your working directory.
 
 
 

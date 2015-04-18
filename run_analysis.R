@@ -56,17 +56,17 @@ names (totaldata) <- (vectornames)
 
 
 
-## extracting the columns of  mean and standar deviation.
+## EXTRACTING THE COLUMNS OF MEAN AND STANDAR DEVIATION.
 
 extractingdata <- totaldata[,c(1,2,grep("mean()",names(totaldata),fixed = TRUE),grep("std()",names(totaldata),fixed = TRUE))]
 
 
 
-#calculate the average of each variable for each activity and each subject
+## CALCULATE THE AVERAGE OF EACH VARIABLE FOR EACH ACTIVITY AND SUBJECT
 
 tidydirty = aggregate(extractingdata, by=list(activity = extractingdata$activity, subject=extractingdata$subject), mean)
 
 tidy = cbind (tidydirty[,1:2],tidydirty[,5:70])
 
-
+## PRINTING THE DATA
 tidy

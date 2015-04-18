@@ -1,5 +1,5 @@
 # getting-and-cleaning-data-coursera
-This respoitory  it’s made for the project of the coursera’s course  “getting and cleaning data”. https://class.coursera.org/getdata-013/human_grading
+This repository  it’s made for the project of the coursera’s course  “getting and cleaning data”. https://class.coursera.org/getdata-013/human_grading
 
 The data that we will use as a base can be downloaded from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 

@@ -6,7 +6,7 @@
 ##MERGING THE DATA
 
 
-#### on firts place we will create tree diferent columns, (subject_***, Y_***, and X_***)
+#### on first place we will create tree diferent columns, (subject_***, Y_***, and X_***)
 #### the y_test, and the subject will be recoded to diferenciate the test of the train. (see the CODE BOOK)
 
 yrecoded <- read.csv (".\\UCI HAR Dataset\\test\\y_test.txt", header = FALSE) +6

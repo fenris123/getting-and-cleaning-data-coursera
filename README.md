@@ -1,7 +1,16 @@
 # getting-and-cleaning-data-coursera
 This repository  it’s made for the project of the coursera’s course  “getting and cleaning data”. https://class.coursera.org/getdata-013/human_grading
 
-The data that we will use as a base can be downloaded from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+This script does the following:
+
+1-takes 2 groups of 3 data files.
+2-merges them in one data frame 
+3-asign names to rows and columns
+4-extract some columns of the data
+5-with these data creates a second, independent tidy data set with the average of each variable for each activity and each subject
+
+
+The data that we had use as a base can be downloaded from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 to work properly, the data must be extracted don your working directory. In simpler words, contain the “UCI HAR Dataset” directory and all it’s content must be on your working directory.
 
